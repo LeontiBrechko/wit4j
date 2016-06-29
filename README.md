@@ -61,11 +61,24 @@ The reason for creating this library is to provide Java developers with base abs
 
 ## Installation
 ```xml
-<dependency>
-  <groupId>com.liavontsibrechka</groupId>
-  <artifactId>wit4j</artifactId>
-  <version>1.0-SNAPSHOT</version>
-</dependency>
+    <dependencies>
+        <dependency>
+            <groupId>com.liavontsibrechka</groupId>
+            <artifactId>wit4j</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>wit4j-mvn-repo</id>
+            <url>https://raw.github.com/leontibrechko/wit4j/mvn-repo/</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
 ```
 
 Link for .jar download will be available soon.
