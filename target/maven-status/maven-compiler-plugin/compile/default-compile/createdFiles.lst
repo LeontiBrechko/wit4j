@@ -1,0 +1,15 @@
+com/liavontsibrechka/wit4j/communication/Converse$1.class
+com/liavontsibrechka/wit4j/communication/ConverseResponseType.class
+com/liavontsibrechka/wit4j/interaction/Interaction.class
+com/liavontsibrechka/wit4j/Wit.class
+com/liavontsibrechka/wit4j/Context.class
+com/liavontsibrechka/wit4j/interaction/InteractionFactory.class
+com/liavontsibrechka/wit4j/interaction/ConsoleInteraction.class
+com/liavontsibrechka/wit4j/action/IAction.class
+com/liavontsibrechka/wit4j/util/ResourceBundleEnum.class
+com/liavontsibrechka/wit4j/communication/Converse.class
+com/liavontsibrechka/wit4j/communication/HttpCommunicationType.class
+com/liavontsibrechka/wit4j/interaction/CustomInteraction.class
+com/liavontsibrechka/wit4j/action/Actions.class
+com/liavontsibrechka/wit4j/communication/HttpCommunicationFactory.class
+com/liavontsibrechka/wit4j/communication/HttpCommunication.class
