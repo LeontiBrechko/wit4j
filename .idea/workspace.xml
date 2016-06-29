@@ -2,150 +2,118 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00596551-fa88-4e4a-aaf5-ba9a54d7d20b" name="Default" comment="Basic abstraction and functionality implementation:&#10; - Singleton classes: Context, Actions&#10; - Functional interface for action command (IAction)&#10; - Abstraction for creating interaction between user and bot (Interaction, InteractionFactory)&#10; - Implementation of basic console interaction (ConsoleInteraction)&#10; - Abstraction for creating http communication with Wit.ai HTTP API (HttpCommunication, HttpCommunicationType, HttpCommunicationFactory)&#10; - Implementation of converse type communication (Converse, ConverseResponseType)&#10; - Some util classes (ResourceBundleEnum)&#10; - Main class for using library (Wit)&#10; - Basic test of library (WitTest)">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/Context.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/Wit.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/action/Actions.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/action/IAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/communication/Converse$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/communication/Converse.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/communication/ConverseResponseType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/communication/HttpCommunication.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/communication/HttpCommunicationFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/communication/HttpCommunicationType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/interaction/ConsoleInteraction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/interaction/CustomInteraction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/interaction/Interaction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/interaction/InteractionFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/util/ResourceBundleEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/close.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/collapsed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/expanded.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/external.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/icon_error_sml.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/icon_info_sml.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/icon_success_sml.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/icon_warning_sml.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/logos/maven-feather.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/images/newwindow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/WitTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/wit4j.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/Apache_License__Version_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/liavontsibrechka/wit4j/Context.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/liavontsibrechka/wit4j/Wit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/liavontsibrechka/wit4j/action/Actions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/liavontsibrechka/wit4j/action/IAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/liavontsibrechka/wit4j/communication/Converse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/liavontsibrechka/wit4j/communication/ConverseResponseType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/liavontsibrechka/wit4j/communication/HttpCommunication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/liavontsibrechka/wit4j/communication/HttpCommunicationFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/liavontsibrechka/wit4j/communication/HttpCommunicationType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/liavontsibrechka/wit4j/interaction/ConsoleInteraction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/liavontsibrechka/wit4j/interaction/CustomInteraction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/liavontsibrechka/wit4j/interaction/Interaction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/liavontsibrechka/wit4j/interaction/InteractionFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/liavontsibrechka/wit4j/util/ResourceBundleEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mainAppProperties.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/WitTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mainAppProperties.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/javadoc-bundle-options/package-list" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/Context.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/Wit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/action/Actions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/action/IAction.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/action/class-use/Actions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/action/class-use/IAction.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/action/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/action/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/action/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/action/package-use.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/class-use/Context.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/class-use/Wit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/Converse.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/ConverseResponseType.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/HttpCommunication.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/HttpCommunicationFactory.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/HttpCommunicationType.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/class-use/Converse.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/class-use/ConverseResponseType.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/class-use/HttpCommunication.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/class-use/HttpCommunicationFactory.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/class-use/HttpCommunicationType.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/package-use.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/ConsoleInteraction.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/CustomInteraction.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/Interaction.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/InteractionFactory.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/class-use/ConsoleInteraction.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/class-use/CustomInteraction.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/class-use/Interaction.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/class-use/InteractionFactory.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/package-use.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/package-use.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/util/ResourceBundleEnum.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/util/class-use/ResourceBundleEnum.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/util/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/util/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/util/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/util/package-use.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/deprecated-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/index-all.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/package-list" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/apidocs/stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/css/maven-base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/css/maven-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/css/print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/css/site.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/dependencies.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/dependency-convergence.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/dependency-info.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/plugin-management.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/plugins.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/project-info.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/project-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wit4j.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/Context.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/Wit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/action/Actions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/action/IAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/communication/Converse$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/communication/Converse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/communication/ConverseResponseType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/communication/HttpCommunication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/communication/HttpCommunicationFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/communication/HttpCommunicationType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/interaction/ConsoleInteraction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/interaction/CustomInteraction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/interaction/Interaction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/interaction/InteractionFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/liavontsibrechka/wit4j/util/ResourceBundleEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mainAppProperties.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/package-list" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/Context.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/Wit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/action/Actions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/action/IAction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/action/class-use/Actions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/action/class-use/IAction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/action/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/action/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/action/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/action/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/class-use/Context.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/class-use/Wit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/Converse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/ConverseResponseType.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/HttpCommunication.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/HttpCommunicationFactory.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/HttpCommunicationType.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/class-use/Converse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/class-use/ConverseResponseType.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/class-use/HttpCommunication.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/class-use/HttpCommunicationFactory.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/class-use/HttpCommunicationType.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/communication/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/ConsoleInteraction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/CustomInteraction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/Interaction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/InteractionFactory.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/class-use/ConsoleInteraction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/class-use/CustomInteraction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/class-use/Interaction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/class-use/InteractionFactory.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/interaction/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/util/ResourceBundleEnum.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/util/class-use/ResourceBundleEnum.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/util/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/util/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/util/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/com/liavontsibrechka/wit4j/util/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/deprecated-list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/index-all.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/overview-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/overview-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/package-list" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/apidocs/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/css/maven-base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/css/maven-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/css/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/css/site.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/dependencies.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/dependency-convergence.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/dependency-info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/collapsed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/expanded.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/external.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/icon_error_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/icon_info_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/icon_success_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/icon_warning_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/logos/maven-feather.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/newwindow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/plugin-management.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/plugins.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/project-info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/project-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/WitTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wit4j.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="wit4j.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -198,14 +166,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsoleInteraction.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConsoleInteraction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/liavontsibrechka/wit4j/interaction/ConsoleInteraction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.511879">
+            <state vertical-scroll-proportion="0.0">
               <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
               <folding>
                 <element signature="e#0#3414#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.28246012">
+              <caret line="86" column="28" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -268,7 +246,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/liavontsibrechka/wit4j/action/Action.java" />
         <option value="$PROJECT_DIR$/src/main/java/wit4jTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liavontsibrechka/wit4j/util/EntityHandler.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/logs.txt" />
         <option value="$PROJECT_DIR$/src/test/java/EntityHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liavontsibrechka/wit4j/Wit.java" />
@@ -287,6 +264,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/liavontsibrechka/wit4j/util/ResourceBundleEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liavontsibrechka/wit4j/interaction/CustomInteraction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liavontsibrechka/wit4j/interaction/ConsoleInteraction.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -317,34 +295,6 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="wit4j" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="wit4j" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="wit4j" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -1012,25 +962,32 @@
       <workItem from="1467122900284" duration="7684000" />
       <workItem from="1467137119277" duration="9167000" />
       <workItem from="1467205370465" duration="92000" />
-      <workItem from="1467205655469" duration="8833000" />
+      <workItem from="1467205655469" duration="10457000" />
     </task>
+    <task id="LOCAL-00001" summary="Basic abstraction and functionality implementation:&#10; - Singleton classes: Context, Actions&#10; - Functional interface for action command (IAction)&#10; - Abstraction for creating interaction between user and bot (Interaction, InteractionFactory)&#10; - Implementation of basic console interaction (ConsoleInteraction)&#10; - Abstraction for creating http communication with Wit.ai HTTP API (HttpCommunication, HttpCommunicationType, HttpCommunicationFactory)&#10; - Implementation of converse type communication (Converse, ConverseResponseType)&#10; - Some util classes (ResourceBundleEnum)&#10; - Main class for using library (Wit)&#10; - Basic test of library (WitTest)">
+      <created>1467222642121</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1467222642122</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70143000" />
+    <option name="totallyTimeSpent" value="71767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32739726" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32739726" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24232633" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1454,14 +1411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1517,11 +1466,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liavontsibrechka/wit4j/interaction/ConsoleInteraction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.511879">
+        <state vertical-scroll-proportion="0.0">
           <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
           <folding>
             <element signature="e#0#3414#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28246012">
+          <caret line="86" column="28" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
