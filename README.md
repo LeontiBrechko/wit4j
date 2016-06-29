@@ -68,7 +68,7 @@ The reason for creating this library is to provide Java developers with base abs
 </dependency>
 ```
 
-Link for .jar donwload will be available soon.
+Link for .jar download will be available soon.
 
 ## API Reference
 Java DOCs is already generated and located at target/site/apidocs. It will be available as a website soon.
