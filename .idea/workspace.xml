@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00596551-fa88-4e4a-aaf5-ba9a54d7d20b" name="Default" comment="pom.xml changes">
+    <list default="true" id="00596551-fa88-4e4a-aaf5-ba9a54d7d20b" name="Default" comment="package and javadoc generation&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wit4j.iws" />
@@ -865,7 +865,7 @@
       <workItem from="1467122900284" duration="7684000" />
       <workItem from="1467137119277" duration="9167000" />
       <workItem from="1467205370465" duration="92000" />
-      <workItem from="1467205655469" duration="11122000" />
+      <workItem from="1467205655469" duration="11197000" />
     </task>
     <task id="LOCAL-00001" summary="Basic abstraction and functionality implementation:&#10; - Singleton classes: Context, Actions&#10; - Functional interface for action command (IAction)&#10; - Abstraction for creating interaction between user and bot (Interaction, InteractionFactory)&#10; - Implementation of basic console interaction (ConsoleInteraction)&#10; - Abstraction for creating http communication with Wit.ai HTTP API (HttpCommunication, HttpCommunicationType, HttpCommunicationFactory)&#10; - Implementation of converse type communication (Converse, ConverseResponseType)&#10; - Some util classes (ResourceBundleEnum)&#10; - Main class for using library (Wit)&#10; - Basic test of library (WitTest)">
       <created>1467222642121</created>
@@ -885,11 +885,17 @@
       <option name="project" value="LOCAL" />
       <updated>1467228330673</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="package and javadoc generation&#10;">
+      <created>1467228499031</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1467228499032</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72432000" />
+    <option name="totallyTimeSpent" value="72507000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -962,7 +968,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic abstraction and functionality implementation:&#10; - Singleton classes: Context, Actions&#10; - Functional interface for action command (IAction)&#10; - Abstraction for creating interaction between user and bot (Interaction, InteractionFactory)&#10; - Implementation of basic console interaction (ConsoleInteraction)&#10; - Abstraction for creating http communication with Wit.ai HTTP API (HttpCommunication, HttpCommunicationType, HttpCommunicationFactory)&#10; - Implementation of converse type communication (Converse, ConverseResponseType)&#10; - Some util classes (ResourceBundleEnum)&#10; - Main class for using library (Wit)&#10; - Basic test of library (WitTest)" />
     <MESSAGE value="pom.xml changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom.xml changes" />
+    <MESSAGE value="package and javadoc generation&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="package and javadoc generation&#10;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
