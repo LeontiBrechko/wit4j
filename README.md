@@ -58,10 +58,10 @@ public class WitTest {
 
 ## Test messages
 Try to ask bot following questions: 
-    * Tell me the forecast for Toronto, please
-    * What is the weather in Toronto today?
-    * What is the weather today?
-    * What is the weather?
+    1. Tell me the forecast for Toronto, please
+    2. What is the weather in Toronto today?
+    3. What is the weather today?
+    4. What is the weather?
 
 P.S. bot knows only about 'Toronto' location and 'today' datetime for now.
 
