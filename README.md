@@ -81,10 +81,10 @@ The reason for creating this library is to provide Java developers with base abs
     </repositories>
 ```
 
-Link for .jar download will be available soon.
+Link for .jar file: http://www.liavontsibrechka.com/wit4j.jar
 
 ## API Reference
-Java DOCs is already generated and located at target/site/apidocs. It will be available as a website soon.
+Java DOCs link: http://www.liavontsibrechka.com/apidocs/index.html
 
 ## License
 
