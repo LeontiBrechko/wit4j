@@ -61,17 +61,30 @@ The reason for creating this library is to provide Java developers with base abs
 
 ## Installation
 ```xml
-<dependency>
-  <groupId>com.liavontsibrechka</groupId>
-  <artifactId>wit4j</artifactId>
-  <version>1.0-SNAPSHOT</version>
-</dependency>
+    <dependencies>
+        <dependency>
+            <groupId>com.liavontsibrechka</groupId>
+            <artifactId>wit4j</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>wit4j-mvn-repo</id>
+            <url>https://raw.github.com/leontibrechko/wit4j/mvn-repo/</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
 ```
 
-Link for .jar download will be available soon.
+Link for .jar file: http://www.liavontsibrechka.com/wit4j.jar
 
 ## API Reference
-Java DOCs is already generated and located at target/site/apidocs. It will be available as a website soon.
+Java DOCs link: http://www.liavontsibrechka.com/apidocs/index.html
 
 ## License
 
