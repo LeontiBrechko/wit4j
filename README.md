@@ -50,20 +50,11 @@ public class WitTest {
     }
 
     public static void main(String[] args) throws IOException, IllegalAccessException {
-        Wit wit = new Wit("L5DOSNSZQ3CTZ2DTQFVTXLRTQRO6TL4H", actions);
+        Wit wit = new Wit("someTokenString", actions);
         wit.interactByConsole(HttpCommunicationType.CONVERSE);
     }
 }
 ```
-
-## Test messages
-Try to ask bot following questions: 
-    1. Tell me the forecast for Toronto, please
-    2. What is the weather in Toronto today?
-    3. What is the weather today?
-    4. What is the weather?
-
-P.S. bot knows only about 'Toronto' location and 'today' datetime for now.
 
 ## Motivation
 The reason for creating this library is to provide Java developers with base abstraction and some implementation of Wit.ai HTTP API in order to comfortably create bot applications in Java programming language.
